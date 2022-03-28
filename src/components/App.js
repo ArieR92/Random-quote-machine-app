@@ -1,7 +1,15 @@
 import React from 'react';
+import Quotes from './Quotes';
 
 const App = () => {
-    return ( <h1>Hello World</h1> );
+    return (
+    
+    <div className='App'>
+
+        <Quotes /> 
+
+    </div>
+    );
 }
  
 export default App;

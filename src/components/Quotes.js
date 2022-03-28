@@ -9,9 +9,9 @@ function Quotes() {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam eligendi inventore ex nam culpa assumenda alias amet a. Animi, quidem.</p>  
         </blockquote>
 
-        character
+        <div className='character' title='Ariel'>Arie M.</div>
     </div>
   )
 }
 
-export default Quotes
+export default Quotes;
