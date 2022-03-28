@@ -9,7 +9,7 @@ const API  = 'https://gist.githubusercontent.com/camperbot/5a022b72e96c4c9585c32
 //2- conseguir la API
 //3- crear el diseno
 //4- agregar los eventos
-//5- stilos
+//5- estilos
 //6- completar las historias de usuario
 
 
