@@ -1,7 +1,7 @@
 import React from 'react';
-import Quotes from './Quotes';
+import Quotes from './components/Quotes';
 
-const App = () => {
+function App () {
     return (
     
     <div className='App'>

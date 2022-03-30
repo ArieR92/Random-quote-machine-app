@@ -10,3 +10,24 @@
     --font-quote: 'Fira Code', monospace;
 
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+    font-family: var (--font);
+}
+
+body {
+    background-color: var(--light);
+
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    min-height:  100vh;
+}
