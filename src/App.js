@@ -1,5 +1,6 @@
 import React from 'react';
 import Quotes from './components/Quotes';
+import index from './index.css'
 
 function App () {
     return (
