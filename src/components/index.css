@@ -31,6 +31,9 @@ body {
     justify-content: center;
     min-height:  100vh;
 }
+.quote{
+    position: relative;
+}
 
 blockquote {
     font-family: var(--font-quote);
@@ -38,7 +41,7 @@ blockquote {
     font-size: 2rem;
     background-color: var(--dark);
     padding: 3rem;
-    border-radius: 1.5rem;
+    border-radius: 0.5rem;
     color: #ffff;
 
 }
@@ -62,13 +65,37 @@ blockquote {
 .anime {
     background-color: var(--secondary);
     font-weight: 400;
-    transform: translate(-25%, 50%);
+    transform: translate(-20%, 50%);
 }
 
 .character {
     background-color: var(--primary);
     font-weight: 700;
-    transform: translate(10%, 50%);
+    transform: translate(20%, 50%);
+    position: absolute;
     right: 0;
     bottom: 0;
+}
+
+button {
+    appearance: none;
+    border: none;
+    outline: none;
+
+    background-color: var(--primary);
+    color: #ffff;
+    border-radius: 3rem;
+    padding: 0.75rem 1.5rem;
+    transition: 0.2s;
+    cursor: pointer;
+    margin-top: 150px;
+    margin-bottom: 64px;
+    font-family: var(--font);
+    font-size: 1.7rem;
+
+}
+
+button:hover {
+    background-color: var(--secondary);
+
 }

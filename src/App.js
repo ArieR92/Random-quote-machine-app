@@ -1,6 +1,6 @@
 import React from 'react';
 import Quotes from './components/Quotes';
-import index from './index.css'
+import index from './components/index.css';
 
 function App () {
     return (
@@ -8,6 +8,8 @@ function App () {
     <div className='App'>
 
         <Quotes /> 
+
+        <button>Generar nueva quote</button>
 
     </div>
     );
