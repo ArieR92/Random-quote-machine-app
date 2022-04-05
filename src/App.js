@@ -26,7 +26,7 @@ const getQuote = () => {
 
         <Quote quote={quote}/>
 
-        <button onClick={getQuote}>Generar nueva quote</button>
+        <button onClick={getQuote}>Press here, get motivated</button>
 
     </div>
     );
