@@ -46,7 +46,7 @@ blockquote {
 
 }
 
-.anime, .character {
+.anime, .author {
     display: inline-block;
     padding: 0.75rem 1.5rem;
     color:  var(--light);
@@ -68,7 +68,7 @@ blockquote {
     transform: translate(-20%, 50%);
 }
 
-.character {
+.author {
     background-color: var(--primary);
     font-weight: 700;
     transform: translate(20%, 50%);
@@ -90,12 +90,17 @@ button {
     cursor: pointer;
     margin-top: 150px;
     margin-bottom: 64px;
-    font-family: var(--font);
+    font-family: roboto;
     font-size: 1.7rem;
+    font-weight: 500;
 
 }
 
 button:hover {
     background-color: var(--secondary);
 
+}
+
+.textoPrueba {
+    color: #131A26;
 }

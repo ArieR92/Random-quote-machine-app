@@ -1,18 +1,37 @@
-import React from 'react';
-import Quotes from './components/Quotes';
+import React, {useState, useEffect} from 'react';
+import Quote from './components/Quote/Quote';
 import index from './components/index.css';
+//import { randomNumber } from './utils/randomNumber';
+const url = 'https://type.fit/api/quotes';
 
 function App () {
+    const [quote, setQuotes] = useState('');
+
+const getQuote = () => {
+    fetch(url)
+    .then(response => response.json() )
+    .then((data) => {
+        let randomNum = Math.floor(Math.random() * data.length);
+        setQuotes(data[randomNum]);
+    });
+
+
+}
+
+
+
     return (
     
     <div className='App'>
 
-        <Quotes /> 
+        <Quote quote={quote}/>
 
-        <button>Generar nueva quote</button>
+        <button onClick={getQuote}>Generar nueva quote</button>
 
     </div>
     );
 }
- 
+
+
+
 export default App;
