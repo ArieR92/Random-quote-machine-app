@@ -1,6 +1,6 @@
 :root {
-    --primary: #A84FFF;
-    --secondary: #D81E5B;
+    --primary: #80b918;
+    --secondary: #0077b6;
     --dark: #131A26;
     --light: #EEEEEE;
     --grey: #888888;
@@ -82,7 +82,7 @@ button {
     border: none;
     outline: none;
 
-    background-color: var(--primary);
+    background-color: var(--secondary);
     color: #ffff;
     border-radius: 3rem;
     padding: 0.75rem 1.5rem;
@@ -93,6 +93,9 @@ button {
     font-family: roboto;
     font-size: 1.7rem;
     font-weight: 500;
+    position: fixed;
+    transform: translate(0%, 300%);
+    
 
 }
 

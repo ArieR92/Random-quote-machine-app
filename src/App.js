@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState,} from 'react';
 import Quote from './components/Quote/Quote';
 import index from './components/index.css';
 //import { randomNumber } from './utils/randomNumber';
