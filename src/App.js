@@ -17,14 +17,12 @@ const getQuote = () => {
 
 
 }
-
-
-
     return (
     
     <div className='App'>
 
         <Quote quote={quote}/>
+
 
         <button onClick={getQuote}>Press here, get motivated</button>
 

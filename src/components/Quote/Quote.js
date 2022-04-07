@@ -1,14 +1,16 @@
-import React from 'react'
+import React, { Component } from 'react'
+import index from './../index.css';
 
-function Quotes({ quote }) {
+function Quotes({ quote, label }) {
 
   return (
-    <div className='quote'>
-        
+    <div data-testid='button' className='quote'>
 
         <blockquote>
-          { quote.text } 
+          { quote.text}
         </blockquote>
+
+      
 
         <div className='author' title={quote.author}>{quote.author}</div>
 
