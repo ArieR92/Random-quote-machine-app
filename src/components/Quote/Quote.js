@@ -4,15 +4,15 @@ import index from './../index.css';
 function Quotes({ quote, label }) {
 
   return (
-    <div data-testid='button' className='quote'>
+    <div id='quote-box'>
 
-        <blockquote>
+        <blockquote id='text'>
           { quote.text}
         </blockquote>
 
       
 
-        <div className='author' title={quote.author}>{quote.author}</div>
+        <div id='author' title={quote.author}>{quote.author}</div>
 
       
 

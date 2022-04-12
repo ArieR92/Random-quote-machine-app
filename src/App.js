@@ -1,8 +1,10 @@
 import React, {useState,} from 'react';
 import Quote from './components/Quote/Quote';
 import index from './components/index.css';
+import {FaTwitter} from 'react-icons/fa';
 //import { randomNumber } from './utils/randomNumber';
 const url = 'https://type.fit/api/quotes';
+
 
 function App () {
     const [quote, setQuotes] = useState('');
@@ -24,7 +26,11 @@ const getQuote = () => {
         <Quote quote={quote}/>
 
 
-        <button onClick={getQuote}>Press here, get motivated</button>
+        <button id='new-quote' onClick={getQuote} data-testid='button'>Press here, get motivated</button>
+
+        <button id='tweet-quote'><FaTwitter/></button>
+
+
 
     </div>
     );
