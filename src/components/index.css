@@ -102,13 +102,15 @@ body {
 
 }
 
-button:hover {
+a:hover {
     background-color: var(--dark);
+    
 
 }
 
 
 #tweet-quote {
+    
     appearance: none;
     border: none;
     outline: none;

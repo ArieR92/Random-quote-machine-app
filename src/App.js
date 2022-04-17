@@ -4,6 +4,7 @@ import index from './components/index.css';
 import {FaTwitter} from 'react-icons/fa';
 //import { randomNumber } from './utils/randomNumber';
 const url = 'https://type.fit/api/quotes';
+//const TweetUrl = 'tweetUrl'
 
 
 function App () {
@@ -15,7 +16,12 @@ const getQuote = () => {
     .then((data) => {
         let randomNum = Math.floor(Math.random() * data.length);
         setQuotes(data[randomNum]);
+        
+        
     });
+
+   
+    
 
 
 }
@@ -28,7 +34,7 @@ const getQuote = () => {
 
         <button id='new-quote' onClick={getQuote} data-testid='button'>Press here, get motivated</button>
 
-        <button id='tweet-quote'><FaTwitter/></button>
+        <a id='tweet-quote' href= {encodeURI(`http://twitter.com/intent/tweet?text=${quote.text}  -${quote.author}`)} className="twitter-share-button"  target='blank'><span><FaTwitter/></span></a>
 
 
 
