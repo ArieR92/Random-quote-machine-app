@@ -6,6 +6,8 @@ import {FaTwitter} from 'react-icons/fa';
 const url = 'https://type.fit/api/quotes';
 //const TweetUrl = 'tweetUrl'
 
+const saludo = "Hello"
+
 
 function App () {
     const [quote, setQuotes] = useState('');
@@ -19,8 +21,8 @@ const getQuote = () => {
         
         
     });
+ 
 
-   
     
 
 

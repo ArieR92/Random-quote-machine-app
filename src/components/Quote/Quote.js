@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import index from './../index.css';
 
-function Quotes({ quote, label }) {
+function Quotes({ quote,}) {
 
   return (
     <div id='quote-box'>
@@ -13,6 +13,7 @@ function Quotes({ quote, label }) {
       
 
         <div id='author' title={quote.author}>{quote.author}</div>
+        
 
       
 
