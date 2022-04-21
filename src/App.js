@@ -2,7 +2,6 @@ import React, {useState,} from 'react';
 import Quote from './components/Quote/Quote';
 import index from './components/index.css';
 import {FaTwitter} from 'react-icons/fa';
-//import { randomNumber } from './utils/randomNumber';
 const url = 'https://type.fit/api/quotes';
 //const TweetUrl = 'tweetUrl'
 
